@@ -9,7 +9,7 @@ This scenario often led us to the issue that beans when deserialised, serialized
 This often helped us catch peculiararies in our beans. The test below helps you catch any quirks. Any beans that you'd like tested should simply extend `JacksonBean`.
 
 ```java
-package com.nosto.jackson;
+package com.example;
 
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
@@ -127,7 +127,7 @@ public class JacksonBeanTest extends AbstractJacksonBeanTest<JacksonBean, Jackso
 
 
 ```java
-package com.nosto.jackson;
+package com.example;
 
 import java.io.IOException;
 import java.lang.reflect.Modifier;
